@@ -5,12 +5,11 @@ In this problem statement we had to build recommendation system for "BeerMart", 
 
 Data file: beer_data.csv
 
-Following activities as been performed: 
+Following activities has been performed: 
 
 1. Data preparation
-   Selected the bear that had at least N number of reviews and selected the reviewer who have given review to atleast N number of bear
-
-    Convert this data frame to a “realratingMatrix” before you build your collaborative filtering models
+   Selected the bear that had at least N number of reviews and selected the reviewer who have given atleast M number of review.
+   Convert the data frame to a “realratingMatrix” before building collaborative filtering models
 
 2. Data Exploration
 
@@ -24,10 +23,9 @@ Following activities as been performed:
         The average number of ratings given by the users
 
 3. Recommendation Models
-
-Divide your data into training and testing datasets
-Experiment with 'split' and 'cross-validation' evaluation schemes
-Build IBCF and UBCF models
-Compare the performance of the two models and suggest the one that should be deployed
-Plot the ROC curves for UBCF and IBCF and compare them
- Give the names of the top 5 beers that you would recommend to the users "cokes", "genog" & "giblet"
+    Divided data into training and testing datasets
+    Experiment with 'split' and 'cross-validation' evaluation schemes
+    Build IBCF and UBCF models
+    Compare the performance of the two models and suggest the one that should be deployed
+    Plot the ROC curves for UBCF and IBCF and compare them
+    Give the names of the top 5 beers that you would recommend to the users "cokes", "genog" & "giblet"
